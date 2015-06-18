@@ -1,0 +1,32 @@
+{
+  "name": "co-ne-db",
+  "version": "0.1.0",
+  "description": "co wrapper for nedb",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudetech/co-nedb.git"
+  },
+  "keywords": [
+    "co",
+    "nedb"
+  ],
+  "author": "Daniel Perez <daniel@claudetech.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudetech/co-nedb/issues"
+  },
+  "homepage": "https://github.com/claudetech/co-nedb#readme",
+  "dependencies": {
+    "thunkify": "^2.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "co": "^4.5.4",
+    "mocha": "^2.2.5",
+    "nedb": "^1.1.2"
+  }
+}
